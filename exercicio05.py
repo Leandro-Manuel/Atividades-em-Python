@@ -1,5 +1,12 @@
-#utilize o for para mostrar na tela uma sequencia de numero de 0 a 10
-#contando de 2 em 2
+#faça o fatorial de um numero: 5*4*3*2*1
 
-for x in range(0,10,2):
-    print(x)
+numero = int (input('Digite um número: '))
+
+cont = numero - 1
+final = 0
+
+while numero > 0:
+    resultado = numero * cont
+
+print(resultado)
+
